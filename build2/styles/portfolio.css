@@ -1,0 +1,539 @@
+@charset "UTF-8";
+@font-face {
+  font-family: BRITANIC;
+  src: url(../fonts/BRITANIC.ttf); }
+
+@font-face {
+  font-family: Bahnschrift;
+  src: url(../fonts/Bahnschrift.ttf); }
+
+html, body {
+  background-color: #27262b !important; }
+
+.main_border__white {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0eee8;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3; }
+
+.portpholio__background_wallpaper {
+  position: absolute;
+  width: 100%; }
+
+.portpholio__background_image {
+  width: 100%;
+  position: fixed; }
+
+/*необходимые елементы выше */
+.back_paralax_first {
+  width: 100%;
+  margin-top: -6700px; }
+
+.back_paralax_first_photo {
+  width: 90%; }
+
+.back_paralax_second {
+  width: 100%;
+  margin-top: -1200px;
+  margin-left: -100px; }
+
+.back_paralax_second_photo {
+  width: 100%; }
+
+.back_paralax_thirt {
+  width: 100%;
+  margin-top: -1200px; }
+
+.back_paralax_thirt_photo {
+  width: 100%; }
+
+.back_paralax_fouth {
+  width: 100%;
+  margin-top: -1400px; }
+
+.back_paralax_fouth_photo {
+  width: 100%; }
+
+.back_paralax_fives {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: -100px; }
+
+.back_paralax_fives_photo {
+  width: 100%; }
+
+.back_paralax_six {
+  width: 100%;
+  margin-top: 100px; }
+
+.back_paralax_six_photo {
+  width: 100%; }
+
+.back_paralax_seventh {
+  width: 100%;
+  margin-top: -200px; }
+
+.back_paralax_seventh_photo {
+  width: 100%; }
+
+/* ТУт начинается надпись На галвном экране */
+.portfolio__main_animated_title {
+  font-family: "Bahnschrift", sans-serif;
+  color: #ebe8e1;
+  font-size: 45px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 15%;
+  z-index: 3; }
+
+#flip {
+  height: 140px;
+  overflow: hidden; }
+
+#flip > div > div {
+  font-family: "BRITANIC", sans-serif;
+  font-size: 100px;
+  color: #ebe8e1;
+  height: 145px;
+  margin-bottom: 45px;
+  display: inline-block; }
+
+#flip div:first-child {
+  -webkit-animation: show 5s linear infinite;
+  animation: show 5s linear infinite; }
+
+#flip div div {
+  color: #42c58a; }
+
+#flip div:first-child div {
+  color: #4ec7f3; }
+
+#flip div:last-child div {
+  color: #eeb828; }
+
+@-webkit-keyframes show {
+  0% {
+    margin-top: -270px; }
+  5% {
+    margin-top: -180px; }
+  33% {
+    margin-top: -180px; }
+  38% {
+    margin-top: -90px; }
+  66% {
+    margin-top: -90px; }
+  71% {
+    margin-top: 0px; }
+  99.99% {
+    margin-top: 0px; }
+  100% {
+    margin-top: -270px; } }
+
+@keyframes show {
+  0% {
+    margin-top: -270px; }
+  5% {
+    margin-top: -180px; }
+  33% {
+    margin-top: -180px; }
+  38% {
+    margin-top: -90px; }
+  66% {
+    margin-top: -90px; }
+  71% {
+    margin-top: 0px; }
+  99.99% {
+    margin-top: 0px; }
+  100% {
+    margin-top: -270px; } }
+
+/* Тут начинается часть с ГЛАВНЫМ САЙТОМ */
+.main__of_mains {
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 1110px;
+  position: relative;
+  width: 100%; }
+
+.main__back_block {
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #1d1c1c;
+  width: 100%;
+  max-width: 1282px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.web__title_describtion {
+  max-width: 1400px;
+  width: 100%;
+  background-color: #171515;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.web__title {
+  background-color: #171515;
+  max-width: 600px;
+  width: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "BRITANIC", sans-serif;
+  font-size: 100px;
+  color: #eeb828;
+  z-index: 3;
+  padding: 5px;
+  text-align: center; }
+
+.web__describtion {
+  background-color: #363333;
+  max-width: 800px;
+  width: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 22px;
+  color: #ebe8e1;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 10px; }
+
+.color {
+  color: #eeb828; }
+
+.color2 {
+  color: #278bd1; }
+
+/* WEB POTRFOLIO ////////////////////// */
+.web_portfolio__main_block1 {
+  width: 100%;
+  max-width: 1010px;
+  margin: 20px;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d1c1c; }
+
+.web_portfolio__main_block {
+  width: 100%;
+  max-width: 1010px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1d1c1c; }
+
+.web_portfolio__picture_block {
+  width: 100%;
+  max-width: 500px;
+  padding: 5px; }
+
+.web_image1 {
+  width: 100%; }
+
+.web_portfolio__text_block {
+  width: 100%;
+  max-width: 500px;
+  padding: 5px; }
+
+.web_portfolio__main_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.web_portfolio__title1 {
+  color: #278bd1;
+  font-family: "BRITANIC", sans-serif;
+  font-size: 60px;
+  margin-top: -22px; }
+
+.web_portfolio__title2 {
+  color: #f0eee8;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 25px;
+  margin-top: 10px; }
+
+.web_portfolio__main_date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.web_portfolio__date_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.web_portfolio__text_date {
+  color: #eeb828;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 25px; }
+
+.web_portfolio__number_date {
+  color: #278bd1;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 23px;
+  margin-top: -10px; }
+
+.web_portfolio__bit_bucket {
+  color: #278bd1;
+  font-family: "Bahnschrift", sans-serif;
+  text-decoration: underline;
+  font-size: 35px; }
+  .web_portfolio__bit_bucket:hover {
+    color: red; }
+
+.web_portfolio__main_description {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.web_portfolio__description_title {
+  color: #eeb828;
+  font-family: "BRITANIC", sans-serif;
+  font-size: 50px; }
+
+.web_portfolio__description_text {
+  color: #f0eee8;
+  font-family: "Bahnschrift", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 28px; }
+
+.web_portfolio__description_details {
+  margin-top: -10px; }
+
+.web_portfolio__main_block1:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eeb828;
+  background-color: #171515; }
+
+.web_portfolio__main_block:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eeb828;
+  background-color: #171515; }
+
+/* Тут начинается ГРАФИКА */
+.graphic__title_describtion {
+  max-width: 1400px;
+  width: 100%;
+  background-color: #171515;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 150px; }
+
+.graphic__main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px;
+  max-width: 481px;
+  width: 100%; }
+
+.graphic__title {
+  background-color: #171515;
+  max-width: 600px;
+  width: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "BRITANIC", sans-serif;
+  font-size: 80px;
+  color: #eeb828;
+  z-index: 3;
+  padding: 5px;
+  text-align: center; }
+
+.graphic__logos {
+  max-width: 200px;
+  width: 100%; }
+
+.graphic__describtion {
+  background-color: #363333;
+  max-width: 800px;
+  width: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Bahnschrift", sans-serif;
+  font-size: 22px;
+  color: #ebe8e1;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 10px; }
+
+/* Тут ВЕРСИИ ГРАФИКИ ПОРТФОЛИО */
+.graphic__contain_main_block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 100px; }
+
+.graphic__contain_main_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.graphic__contain_title {
+  width: 100%;
+  max-width: 428px;
+  font-family: "BRITANIC", sans-serif;
+  color: #eeb828;
+  text-align: center;
+  font-size: 50px; }
+
+.graphic__contain_description {
+  width: 100%;
+  max-width: 596px;
+  font-family: "Bahnschrift", sans-serif;
+  color: #f0eee8;
+  text-align: center;
+  font-size: 30px; }
+
+.graphic__contain_comment {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Bahnschrift", sans-serif;
+  color: #2470a7;
+  text-align: center;
+  font-size: 26px; }
+
+.graphic__contain_comment1 {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Bahnschrift", sans-serif;
+  color: #d60c3b;
+  text-align: center;
+  font-size: 26px; }
+
+.graphic__picture_container {
+  max-width: 1281px;
+  width: 100%; }
+
+.graphic__picture1 {
+  width: 100%; }

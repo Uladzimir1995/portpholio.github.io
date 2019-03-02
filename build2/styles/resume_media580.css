@@ -1,0 +1,85 @@
+@media screen and (max-width: 580px) {
+  .title_text__exp4 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 36px;
+    width: 100%;
+    max-width: 400px;
+    text-decoration: underline; }
+  .title_text__resume1 {
+    font-family: "BRITANIC", sans-serif;
+    color: #eeb828;
+    font-size: 90px; }
+  .title_text__skill6 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 35px;
+    margin-top: -15px; }
+  .title_text__skill5 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #e8bd4a;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 40px; }
+  .title_text__skill4 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 34px;
+    margin-top: -15px; }
+  .title_text__skill3 {
+    font-family: "BRITANIC", sans-serif;
+    color: #eeb828;
+    font-size: 56px;
+    margin-top: -35px; }
+  .title_text__skill2 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #e8bd4a;
+    font-size: 40px;
+    position: relative;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    padding-bottom: 40px; }
+  .title_text__lang6 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 34px;
+    margin-top: -15px; }
+  .title_text__ed2 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #e8bd4a;
+    font-size: 31px;
+    position: relative; }
+  .title_text__ed4 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 36px;
+    margin-top: -15px; }
+  .title_text__exp2 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #e8bd4a;
+    font-size: 39px;
+    position: relative; }
+  .title_text__exp4 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 36px;
+    width: 100%;
+    max-width: 400px;
+    text-decoration: underline; }
+  .title_text__exp5 {
+    font-family: "Bahnschrift", sans-serif;
+    color: #deddd7;
+    font-size: 30px;
+    width: 100%;
+    max-width: 900px; }
+  .main_width2 {
+    width: 100% !important;
+    max-width: 1600px !important;
+    position: relative;
+    margin-top: 196px;
+    padding-left: 3% !important; }
+  .title_text__main_resume {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    top: -80px; } }

@@ -1,0 +1,231 @@
+$yellow: #eeb828;
+$white: #deddd7;
+
+@font-face {
+  font-family: BRITANIC;
+  src: url(../fonts/BRITANIC.ttf);
+}
+
+@font-face {
+  font-family: Bahnschrift;
+  src: url(../fonts/Bahnschrift.ttf);
+}
+
+
+html, body {
+background-color: #27262b !important;
+}
+
+.main_border__white {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0eee8;
+  width: 100%;
+height: 100%;
+position: fixed;
+z-index: 1;
+}
+
+.contacts__background_wallpaper {
+  position: absolute;
+  width: 100%;
+
+}
+
+.contacts__background_image {
+  width: 100%;
+
+}
+
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title {
+		font-size: 3em;
+	}
+}
+
+.resume__background_image {
+  width: 100%;
+  position: fixed;
+}
+
+/*необходимые елементы выше */
+
+.contacts__main_width {
+  width: 100% !important;
+  max-width: 1600px !important;
+  position: relative;
+  top: 100px;
+
+}
+
+.contacts__main_contacts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__main_width {
+  max-width: 1600px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.contacts__main_title{
+  font-family: "BRITANIC", sans-serif;
+  color: #eeb828;
+  font-size: 140px;
+  text-align: center;
+  position: relative;
+  margin-left: -40px;
+}
+
+.contacts__main_describtion {
+  font-family: "Bahnschrift", sans-serif;
+  color: #deddd7;
+  font-size: 66px;
+  text-align: center;
+
+}
+
+
+.contacts__main_mail{
+  margin-top: 60px;
+  font-family: "BRITANIC", sans-serif;
+  color: #eeb828;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  margin-left: -40px;
+}
+
+.contacts__main_mail2 {
+  font-family: "Bahnschrift", sans-serif;
+  color: #deddd7;
+  font-size:50px;
+  text-align: center;
+  margin-left: -40px;
+
+}
+
+.contacts__main_socials{
+  margin-top: 60px;
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  margin-left: -40px;
+}
+
+.contacts__social_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  max-width: 1300px;
+
+}
+
+.contacts__social_title1 {
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  z-index: 4;
+  &:hover{
+    color: #2657e3;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__social_title2 {
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  z-index: 4;
+  &:hover{
+    color: #26b4e3;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__social_title3 {
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  z-index: 4;
+  &:hover{
+    color: #ea1291;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__social_title4 {
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  max-width: 310px;
+  z-index: 4;
+  &:hover{
+    color: #1fb126;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__social_title5 {
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  z-index: 4;
+  &:hover{
+    color: #b938d0;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__social_title6 {
+  font-family: "BRITANIC", sans-serif;
+  color: #deddd7;
+  font-size: 60px;
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  z-index: 4;
+  &:hover{
+    color: #2f9be0;
+    text-transform: uppercase;
+  }
+}

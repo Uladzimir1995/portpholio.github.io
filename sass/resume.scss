@@ -1,0 +1,299 @@
+$yellow: #eeb828;
+$white: #deddd7;
+
+@font-face {
+  font-family: BRITANIC;
+  src: url(../fonts/BRITANIC.ttf);
+}
+
+@font-face {
+  font-family: Bahnschrift;
+  src: url(../fonts/Bahnschrift.ttf);
+}
+
+@font-face {
+  font-family: AgencyFBBold;
+  src: url(../fonts/AgencyFB_Bold.ttf);
+}
+
+html, body {
+background-color: #292929 !important;
+}
+
+/*необходимые елементы выше */
+
+.main_border__white {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f0eee8;
+  width: 100%;
+height: 100%;
+position: fixed;
+z-index: 3;
+}
+
+.resume__background_wallpaper {
+  position: absolute;
+  width: 100%;
+
+}
+
+.resume__background_image {
+  width: 100%;
+}
+
+/* Базовые элементы декора */
+
+
+.main_width {
+  width: 100% !important;
+  max-width: 1600px !important;
+  position: relative;
+  top: 100px;
+  padding-left: 3% !important;
+
+}
+
+.title_text__main_resume {
+  width: 100%;
+  max-width:1000px;
+
+}
+
+.title_text__resume1 {
+font-family: "BRITANIC", sans-serif;
+color: $yellow;
+font-size: 150px;
+}
+
+.title_text__resume2 {
+  font-family: "Bahnschrift", sans-serif;
+  color: $white;
+  font-size: 76px;
+position: relative;
+
+}
+
+.title_text__resume3 {
+  font-family: "BRITANIC", sans-serif;
+  color: $yellow;
+  font-size: 70px;
+      margin-top: -35px;
+}
+
+.title_text__resume4 {
+  font-family: "Bahnschrift", sans-serif;
+  color: $white;
+  font-size: 60px;
+
+  }
+
+
+  .main_width2 {
+    width: 100% !important;
+    max-width: 1600px !important;
+    position: relative;
+    margin-top: 625px;
+    padding-left: 3% !important;
+
+  }
+
+  .title_text__main_skill {
+    width: 100%;
+    max-width:1000px;
+
+  }
+
+
+  .title_text__skill2 {
+      font-family: "Bahnschrift", sans-serif;
+      color: #e8bd4a;
+      font-size: 54px;
+      position: relative;
+      text-decoration-line: underline;
+  }
+
+  .title_text__skill3 {
+    font-family: "BRITANIC", sans-serif;
+    color: $yellow;
+    font-size: 75px;
+        margin-top: -35px;
+  }
+
+  .title_text__skill4 {
+    font-family: "Bahnschrift", sans-serif;
+    color: $white;
+    font-size: 46px;
+    margin-top: -15px;
+
+    }
+
+
+    .main_width3 {
+      width: 100% !important;
+      max-width: 1600px !important;
+      position: relative;
+      margin-top: 86px;
+      padding-left: 3% !important;
+
+    }
+
+    .title_text__main_next_skils {
+      width: 100%;
+      max-width:1000px;
+
+    }
+
+
+    .title_text__skill5 {
+        font-family: "Bahnschrift", sans-serif;
+        color: #e8bd4a;
+        font-size: 54px;
+        position: relative;
+        text-decoration-line: underline;
+    }
+
+
+    .title_text__skill6 {
+      font-family: "Bahnschrift", sans-serif;
+      color: $white;
+      font-size: 46px;
+      margin-top: -15px;
+
+      }
+
+
+      .main_width4 {
+        width: 100% !important;
+        max-width: 1600px !important;
+        position: relative;
+        margin-top: 230px;
+        padding-left: 3% !important;
+
+      }
+
+      .title_text__lang3 {
+        font-family: "BRITANIC", sans-serif;
+        color: $yellow;
+        font-size: 60px;
+            margin-top: -35px;
+      }
+
+
+      .title_text__lang6 {
+        font-family: "Bahnschrift", sans-serif;
+        color: $white;
+        font-size: 44px;
+        margin-top: -15px;
+
+        }
+
+
+
+        .main_width5 {
+          width: 100% !important;
+          max-width: 1600px !important;
+          position: relative;
+          margin-top: 230px;
+          padding-left: 3% !important;
+
+        }
+
+        .title_text__main_seducation {
+          width: 100%;
+          max-width:1000px;
+
+        }
+
+        .title_text__ed2 {
+            font-family: "Bahnschrift", sans-serif;
+            color: #e8bd4a;
+            font-size: 54px;
+            position: relative;
+            text-decoration-line: underline;
+        }
+
+
+        .title_text__ed4 {
+          font-family: "Bahnschrift", sans-serif;
+          color: $white;
+          font-size: 46px;
+          margin-top: -15px;
+
+          }
+
+
+
+
+
+
+
+
+          .main_width6 {
+            width: 100% !important;
+            max-width: 1600px !important;
+            position: relative;
+            margin-top: 230px;
+            padding-left: 3% !important;
+
+          }
+
+          .title_text__main_experience {
+            width: 100%;
+            max-width:1400px;
+
+          }
+
+          .title_text__exp2 {
+              font-family: "Bahnschrift", sans-serif;
+              color: #e8bd4a;
+              font-size: 54px;
+              position: relative;
+              text-decoration-line: underline;
+          }
+
+          .title_text__main_exp_cont {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            max-width: 1300px;
+            padding-top: 50px;
+          }
+
+          .title_text__exp4 {
+            font-family: "Bahnschrift", sans-serif;
+            color: $white;
+            font-size: 48px;
+            width: 100%;
+            max-width: 400px;
+            text-decoration: underline;
+            }
+
+            .title_text__exp5 {
+              font-family: "Bahnschrift", sans-serif;
+              color: $white;
+              font-size: 46px;
+              width: 100%;
+              max-width: 900px;
+              }
+
+              .title_text__exp6 {
+                font-family: "Bahnschrift", sans-serif;
+                color: $white;
+                font-size: 46px;
+                width: 100%;
+                max-width: 900px;
+                }
+
+.titke_text__help {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.title_text__main_expirience_block {
+  width: 100%;
+  max-width: 1400px;
+  padding-bottom: 350px;
+}

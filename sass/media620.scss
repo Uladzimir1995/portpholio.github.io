@@ -1,0 +1,32 @@
+@media screen and (max-width: 570px)
+{
+
+  #flip {
+    height:90px;
+    overflow:hidden;
+  }
+
+  #flip > div > div {
+    font-family: "BRITANIC", sans-serif;
+    font-size: 60px;
+    color:#ebe8e1;
+    height:70px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+
+
+  .main__of_mains {
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 648px;
+    position: relative;
+    width: 100%;
+}
+
+}
