@@ -20,8 +20,8 @@ html, body {
   z-index: 1; }
 
 .contacts__background_wallpaper {
-  position: absolute;
-  width: 100%; }
+  position: fixed;
+  width: 108%; }
 
 .contacts__background_image {
   width: 100%; }
@@ -58,7 +58,7 @@ html, body {
 .contacts__main_title {
   font-family: "BRITANIC", sans-serif;
   color: #eeb828;
-  font-size: 140px;
+  font-size: 120px;
   text-align: center;
   position: relative;
   margin-left: -40px; }
@@ -66,14 +66,14 @@ html, body {
 .contacts__main_describtion {
   font-family: "Bahnschrift", sans-serif;
   color: #deddd7;
-  font-size: 66px;
+  font-size: 45px;
   text-align: center; }
 
 .contacts__main_mail {
   margin-top: 60px;
   font-family: "BRITANIC", sans-serif;
   color: #eeb828;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   margin-left: -40px; }
@@ -81,15 +81,15 @@ html, body {
 .contacts__main_mail2 {
   font-family: "Bahnschrift", sans-serif;
   color: #deddd7;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   margin-left: -40px; }
 
 .contacts__main_socials {
-  margin-top: 60px;
+  margin-top: 20px;
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 70px;
+  font-size: 55px;
   text-align: center;
   position: relative;
   margin-left: -40px; }
@@ -115,7 +115,7 @@ html, body {
   max-width: 280px;
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;
@@ -127,7 +127,7 @@ html, body {
 .contacts__social_title2 {
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;
@@ -142,7 +142,7 @@ html, body {
 .contacts__social_title3 {
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;
@@ -157,7 +157,7 @@ html, body {
 .contacts__social_title4 {
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;
@@ -172,7 +172,7 @@ html, body {
 .contacts__social_title5 {
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;
@@ -187,7 +187,7 @@ html, body {
 .contacts__social_title6 {
   font-family: "BRITANIC", sans-serif;
   color: #deddd7;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   position: relative;
   text-decoration: underline;

@@ -39,6 +39,12 @@ body {
 /*  opacity: 0.5; */
   /* background-color: rgba(50, 52, 54, 0.7);*/
   cursor: pointer; }
+
+  .sizer_menu {
+    max-height: 9em;
+  }
+
+
   .menu-collapsed ul {
     -webkit-transition: all 0s;
     transition: all 0s;

@@ -8,7 +8,8 @@
   src: url(../fonts/Bahnschrift.ttf); }
 
 html, body {
-  background-color: #27262b !important; }
+  background-color: #27262b !important;
+ }
 
 /*необходимые елементы выше */
 .main_border_white {
@@ -21,11 +22,24 @@ html, body {
   z-index: 3; }
 
 .start__background_wallpaper {
-  position: absolute;
-  width: 100%; }
+  position: fixed;
+  width: 100%;
+}
+
 
 .start__background_image {
-  width: 100%; }
+  width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+
+ }
+
+.container2 {
+  padding-left: 5% !important;
+}
 
 .main_width {
   width: 100% !important;

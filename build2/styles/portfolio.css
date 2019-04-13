@@ -10,6 +10,29 @@
 html, body {
   background-color: #27262b !important; }
 
+.position_special{
+  position: relative;
+  top: 550px;
+}
+
+.scroll_down_block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 31%;
+  }
+
+.scroll_text {
+  font-family: "Bahnschrift", sans-serif;
+  color: #deddd7;
+  font-size: 25px;
+}
+
+.scroll_image {
+  max-width: 50px;
+}
+
+
 .main_border__white {
   border-style: solid;
   border-width: 2px;
